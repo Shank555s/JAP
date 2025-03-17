@@ -31,3 +31,24 @@ public class gym_n{
         }
     }
 }
+OUTPUT:
+Enter the number of people: 
+2
+Enter the age of member1
+18
+Enter the name of member1
+shanks
+Enter the duration of the member1
+500
+Enter the status of the member1
+true
+Final amount of the member 1 is 25000
+Enter the age of member2
+20
+Enter the name of member2
+shreekar
+Enter the duration of the member2
+400
+Enter the status of the member2
+false
+Final amount of the member 2 is 20000

@@ -1,0 +1,33 @@
+package bm23ai228;
+
+import java.util.Scanner;
+public class gym_n{
+    String name=" ";
+    int age;
+    int fees=50;
+    int amt;
+    boolean status;
+    int duration;
+    int calc(int duration){
+        amt=duration*fees;
+        return amt;
+    }
+    public static void main(String[] args){
+        Scanner sc= new Scanner(System.in);
+        gym_n obj=new gym_n();
+        System.out.println("Enter the number of people: ");
+        int n= sc.nextInt();
+        for(int i=1;i<=n;i++){
+            System.out.println("Enter the age of member"+i);
+            obj.age=sc.nextInt();
+            System.out.println("Enter the member"+i);
+            obj.name=sc.next();
+            System.out.println("Enter the duration of the member"+i);
+            obj.duration=sc.nextInt();
+            System.out.println("Enter the status of the member"+i);
+            obj.status= sc.nextBoolean();
+            obj.amt=obj.calc(obj.duration);
+            System.out.println("Final amount of the member "+i+" is "+ obj.amt);
+        }
+    }
+}

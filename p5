@@ -1,0 +1,47 @@
+package BM23AI170;
+import java.util.Vector;
+class Product{
+    String name;
+    double price;
+    String category;
+    public Product(String name,double price,String category) {
+        this.name = name;
+        this.price = price;
+        this.category = category;
+
+    }
+}
+public class Onlineshopping {
+    private Vector<Product>Inventory;
+    public Onlineshopping() {
+        Inventory = new Vector<>();
+    }
+    public void addProduct(String name,double price,String category){
+        Product product=new Product(name,price,category);
+        Inventory.add(product);
+    }
+    public void removeProduct(String name) {
+        for (int i = 0; i < Inventory.size(); i++) {
+            Inventory.remove(i);
+            break;
+        }
+    }
+    public void displayInventory(){
+        System.out.println("Inventory");
+        for(Product product : Inventory){
+            System.out.println("Name : "+product.name +" Price : "+ product.price+" Category : "+product.category);
+
+        }
+    }
+    public static void main(String args[]){
+        Onlineshopping manager = new Onlineshopping();
+        manager.addProduct("burger",210,"food");
+        manager.addProduct("pepsi",50,"Drinks");
+        manager.addProduct("apple",25,"Fruit");
+        manager.addProduct("idli",30,"food");
+        manager.displayInventory();
+        manager.removeProduct("burger");
+        manager.displayInventory();
+
+    }
+}

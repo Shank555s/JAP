@@ -145,3 +145,40 @@ public class Interface {
         }
     }
 }
+output:
+"C:\Program Files\Java\jdk-18.0.1.1\bin\java.exe" "-javaagent:C:\Program Files\...
+
+Using Fixed-Length Stack:
+Pushing: 1
+Pushing: 2
+Pushing: 3
+Pushing: 4
+Pushing: 5
+Pushing: 6
+Stack Overflow
+Pushing: 7
+Stack Overflow
+Fixed Stack: 1 2 3 4 5
+
+Popping elements:
+Popped: 5
+Popped: 4
+Popped: 3
+Fixed Stack: 1 2
+
+Using Dynamic-Length Stack:
+Pushing: 1
+Pushing: 2
+Pushing: 3
+Pushing: 4
+Pushing: 5
+Pushing: 6
+Stack resized to capacity: 10
+Pushing: 7
+Dynamic Stack: 1 2 3 4 5 6 7
+
+Popping elements:
+Popped: 7
+Popped: 6
+Popped: 5
+Dynamic Stack: 1 2 3 4

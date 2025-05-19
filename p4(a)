@@ -22,3 +22,7 @@ public class enumeration {
 
     }
 }
+
+output:
+Is Monday a workday?true
+Is Sturday a workday?false

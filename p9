@@ -1,4 +1,4 @@
-package BM23AI170;
+package BM23AI174;
 import java.util.ArrayList;
 
 interface StackOperations {
@@ -109,3 +109,13 @@ public class StackDemo {
         stack.display();
     }
 }
+output:
+"C:\Program Files\Java\jdk-18.0.1.1\bin\java.exe"
+Stack Overflow (Fixed)
+Fixed Stack: 10 20 30
+Fixed Stack: 10 20
+
+Dynamic Stack: 100 200 300
+Dynamic Stack: 100 200
+
+Process finished with exit code 0

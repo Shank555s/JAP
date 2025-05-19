@@ -51,3 +51,10 @@ public class TestAccount {
         }
     }
 }
+output:
+Deposited 1000.0 Rs. New balance: 1500.0 Rs
+Deposited 700.0 Rs. New balance: 1200.0 Rs
+LessBalanceException: Withdraw amount (1600.0 Rs) is not possible. Balance would fall below minimum required (Rs 500).
+Withdrawn 200.0 Rs. New balance: 1000.0 Rs
+
+Process finished with exit code 0

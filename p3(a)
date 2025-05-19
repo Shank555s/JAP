@@ -1,0 +1,24 @@
+
+import java.util.*;
+
+public class stringgggg {
+
+
+    public String translateToSpanish(String text) {
+        if (text.equals("Hello")) {
+            return "Hola";
+        }
+        return "Translation not available";
+    }
+
+    public static void main(String[] args) {
+
+        stringgggg tool = new stringgggg();
+        String str1 = "apple";
+        String str2 = "apple";
+        System.out.println("Are the strings equal? " + str1.equals(str2));
+        System.out.println("Concatenated string: " + str1 + " " + str2);
+        String translatedToSpanish = tool.translateToSpanish("Hello");
+        System.out.println("Translation in Spanish: " + translatedToSpanish);
+    }
+}

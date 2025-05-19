@@ -48,4 +48,10 @@ public class GQueue<T> {
         System.out.println("Queue size: " + integerQueue.size);
     }
 }
-  
+  output:
+Elements in the queue are:
+10
+20
+30
+Dequeued element: 10
+Queue size: 2

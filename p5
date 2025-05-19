@@ -1,4 +1,4 @@
-package BM23AI170;
+package BM23AI174;
 import java.util.Vector;
 class Product{
     String name;
@@ -45,3 +45,13 @@ public class Onlineshopping {
 
     }
 }
+output:
+Inventory
+Name : burger Price : 210.0 Category : food
+Name : pepsi Price : 50.0 Category : Drinks
+Name : apple Price : 25.0 Category : Fruit
+Name : idli Price : 30.0 Category : food
+Inventory
+Name : pepsi Price : 50.0 Category : Drinks
+Name : apple Price : 25.0 Category : Fruit
+Name : idli Price : 30.0 Category : food

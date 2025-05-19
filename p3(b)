@@ -24,3 +24,9 @@ public class stringcomp {
         System.out.println("the concatinated is :"+ s2+s3);
     }
 }
+output:
+Enter a string: shreyas
+Initial capacity of the StringBuffer: 23
+Reversed and Uppercase String: SAYERHS
+Enter another string to append: joshi
+Final String after appending: sayerhsjoshi

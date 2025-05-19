@@ -22,3 +22,8 @@ public class stringgggg {
         System.out.println("Translation in Spanish: " + translatedToSpanish);
     }
 }
+output:
+Are str1 and str2 equal? false
+Concatenated: HelloWorld
+Original string: Dog
+Copied string: Dog
